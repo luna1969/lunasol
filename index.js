@@ -11,7 +11,7 @@ mongoose
       useUnifiedTopology: true,
     }
   )
-  .then(() => console.log("M o n g o D B C o n e c t"))
+  .then(() => console.log(" M o n g o D B C o n e c t"))
   .catch((err) => console.log(err));
 
 app.get("/", (req, res) => res.send("Hello World"));

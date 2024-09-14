@@ -11,7 +11,7 @@ const config = require("./config/key");
 const mongoose = require("mongoose");
 mongoose
   .connect(
-    // "mongodb+srv://luna:123$@luna.t5kxd.mongodb.net/?retryWrites=true&w=majority&appName=luna",
+    //"mongodb+srv://luna:123$@luna.t5kxd.mongodb.net/?retryWrites=true&w=majority&appName=luna",
     config.mongoURI,
     {
       useNewUrlParser: true,
